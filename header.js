@@ -87,8 +87,8 @@ fetch("header.html")
     // ===================================================================
     window.showNotification = function () {
         // You can replace 'alert' with a custom modal later if you want!
-        const message = "\n1. Only EE department resources are available upto 5th semester.\n\n2. We don't claim fully over the content on the website,as some resources might have been taken from other platforms.\n\n3. We provide the best resources aligned to the corresponding NITP Professors.";
-        alert(`LATEST UPDATE✅✅\n`+message);
+        const message = "\n1. Available resources:\n        * EE Sem(1 to 5)\n\n2. We provide the best resources aligned to the corresponding NITP Professors.\n\n3. If you have some useful resources, feel free to share with us through feedback mail(@ bottom of page), it is kindly appreciated and helpful for some other students.\n\n4. We don't fully claim our rights over the content on the website, as some resources might have been taken from some other platforms, as per suitable a/c to NITP faculties.";
+        alert(`LATEST UPDATES ✅✅\n`+message);
         
         // Logic to play a small sound or change bell color after clicking
         const bell = document.getElementById("notif-bell");
@@ -106,3 +106,4 @@ fetch("header.html")
 
   })
   .catch(err => console.error("Header load error:", err));
+
